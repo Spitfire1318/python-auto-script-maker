@@ -47,6 +47,7 @@ if file_option == 1:
         print("")
         print(Fore.LIGHTGREEN_EX + "[!] Successfully written to file!")
         f.close()
+        print("")
         
 if file_option == 2:
     with open(os.path.join(mydirectory, file_name_with_ext), 'w') as f:
@@ -64,6 +65,7 @@ if file_option == 2:
         print("")
         print(Fore.LIGHTGREEN_EX + "[!] Successfully written to file!")
         f.close()
+        print("")
 
 if file_option == 3:
     with open(os.path.join(mydirectory, file_name_with_ext), 'w') as f:
@@ -77,6 +79,7 @@ if file_option == 3:
         print("")
         print(Fore.LIGHTGREEN_EX + "[!] Successfully written to file!")
         f.close()
+        print("")
 
 if file_option == 4:
     with open(os.path.join(mydirectory, file_name_with_ext), 'w') as f:
@@ -94,3 +97,4 @@ if file_option == 4:
         print("")
         print(Fore.LIGHTGREEN_EX + "[!] Successfully written to file!")
         f.close()
+        print("")
